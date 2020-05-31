@@ -1,4 +1,5 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { PersonIdGenerator } from './id/person-id.generator';
 
 @Component({
   selector: 'app-person',
@@ -11,7 +12,11 @@ export class PersonComponent implements OnInit {
   @Input()
   person: any;
 
-  constructor() { }
+  id: number;
+
+  constructor(private readonly personIdGenerator: PersonIdGenerator) {
+    this.id = personIdGenerator.generate();
+  }
 
   ngOnInit(): void {
   }
