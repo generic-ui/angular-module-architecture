@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { CustomerModule } from './domain/customer/customer.module';
 import { EmployeeListComponent } from './domain/employee/list/employee-list.component';
 import { EmployeeModule } from './domain/employee/employee.module';
+import { PersonModule } from './domain/person/person.module';
+import { GeneratorModule } from './domain/generator/generator.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,11 @@ import { EmployeeModule } from './domain/employee/employee.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PersonModule.forRoot(),
+    GeneratorModule
+  ],
+  exports: [
   ],
   providers: [],
   bootstrap: [AppComponent]

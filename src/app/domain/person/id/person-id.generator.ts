@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
+import { IdGenerator } from '../../generator/id.generator';
 
 @Injectable()
 export class PersonIdGenerator {
 
-  private index = 0;
+  constructor(private readonly idGenerator: IdGenerator) {}
 
   generate(): number {
-    return this.index++;
+    return this.idGenerator.generate();
   }
 
 }

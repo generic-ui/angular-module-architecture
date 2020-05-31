@@ -15,9 +15,11 @@ import { PersonModule } from '../person/person.module';
   exports: [CustomerListComponent],
   imports: [
     CommonModule,
-    PersonModule,
+    PersonModule.forChild(),
     GuiListModule
   ]
 })
 export class CustomerModule {
+
+  constructor(personModule: PersonModule) {}
 }
