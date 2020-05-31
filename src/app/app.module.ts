@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CustomerModule } from './customer/customer.module';
-import { EmployeeListComponent } from './employee/list/employee-list.component';
-import { EmployeeModule } from './employee/employee.module';
+import { CustomerModule } from './domain/customer/customer.module';
+import { EmployeeListComponent } from './domain/employee/list/employee-list.component';
+import { EmployeeModule } from './domain/employee/employee.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +13,6 @@ import { EmployeeModule } from './employee/employee.module';
   ],
   imports: [
     BrowserModule,
-    CustomerModule,
-    EmployeeModule,
     AppRoutingModule
   ],
   providers: [],

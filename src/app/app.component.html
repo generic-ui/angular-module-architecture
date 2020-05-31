@@ -1,11 +1,10 @@
-<div class="container">
-
-  <h1>Angular module architecture</h1>
-
-  <div class="row">
-    <app-customer-list class="col-sm-6 "></app-customer-list>
-
-    <app-employee-list class="col-sm-6 "></app-employee-list>
-  </div>
-
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Angular module architecture</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" [routerLink]="'home'" [routerLinkActive]="'active'" >Home</a>
+    <a class="p-2 text-dark" [routerLink]="'customers'" [routerLinkActive]="'active'">Customers</a>
+    <a class="p-2 text-dark" [routerLink]="'employees'" [routerLinkActive]="'active'">Employees</a>
+  </nav>
 </div>
+
+<router-outlet></router-outlet>
