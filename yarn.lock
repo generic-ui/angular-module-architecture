@@ -979,24 +979,24 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@generic-ui/fabric@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@generic-ui/fabric/-/fabric-0.12.0.tgz#de119fd3b6e4b9b5a10557686da57fa63d0ca762"
-  integrity sha512-aDrspyXgDq2AXOk3UdxMEZbZq9vyPH/S7eLNPz5sXx3kn+XYuXpeZcp4RP1TTTy8CnoxHiRRWc8FE1pdRL4Tog==
+"@generic-ui/fabric@0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@generic-ui/fabric/-/fabric-0.12.1.tgz#0ecad2423f1fdd02ad710ad11251d074da4ab762"
+  integrity sha512-zGpRgBW/lu5fH3mXqglGkAwUWxaf8GtFdxg0tq1nbLMhmkCTtp26qSfyc8dmLZDWy9zW8WA/k59+Dk/AuySTrg==
   dependencies:
     tslib "^1.9.0"
 
-"@generic-ui/hermes@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@generic-ui/hermes/-/hermes-0.12.0.tgz#2b89eec192f8ec7ea497886c84244f88dcbdf41b"
-  integrity sha512-x39481jgBz+7oILbqDbJ2swjy3tPTbDMujLHn5fmPnDrIj7G92sfxg8O9O/ahD1o0ZW5JAh9QFqcPu42WMxDgQ==
+"@generic-ui/hermes@0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@generic-ui/hermes/-/hermes-0.12.1.tgz#48c5f8773b632f80388bacedfb29b84047984e7a"
+  integrity sha512-mNibTU41FWQsfKnBE+RYN+fGEU9odYmlY+gob90A9QrDPwp815eYHkHgZAAdjNHn8CJS1JUyfkZe3xNEibZ9ig==
   dependencies:
     tslib "^1.9.0"
 
-"@generic-ui/ngx-list@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@generic-ui/ngx-list/-/ngx-list-0.12.0.tgz#4291f255239095ef21200f52abaf36841254ee7b"
-  integrity sha512-R1/6WnoaFDKm1GtlaTuO95qMN7qcoQnUm4+mdH4u2NvIw72kYNgz6D85AVO+tKoxD0hb425De7TD8epFvyr5WQ==
+"@generic-ui/ngx-list@0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@generic-ui/ngx-list/-/ngx-list-0.12.1.tgz#e9d48eb320576947c3726447b21b5dbbea23a90c"
+  integrity sha512-odntIdn42QGF/lY2nFyCwM5M+TERqlCNzjqjvoE6RDZPsYFTlWnYHXQwO+iybeqYmkQMbBOdX08mStUIx5Op3w==
   dependencies:
     tslib "^1.9.0"
 
@@ -1803,6 +1803,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.0.tgz#97d9dbcb5a8972f8722c9962483543b907d9b9ec"
+  integrity sha512-Z93QoXvodoVslA+PWNdk23Hze4RBYIkpb5h8I2HY2Tu2h7A0LpAgLcyrhrSUyo2/Oxm2l1fRZPs1e5hnxnliXA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"

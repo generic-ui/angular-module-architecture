@@ -1,3 +1,8 @@
-
-E List
-<app-user></app-user>
+<h2>Employees</h2>
+<gui-list [source]="employees$ | async" class="person-list">
+  <gui-list-item>
+    <ng-template let-item="item">
+      <app-person [person]="item"></app-person>
+    </ng-template>
+  </gui-list-item>
+</gui-list>

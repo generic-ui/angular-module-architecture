@@ -1,0 +1,26 @@
+.person-list {
+
+  .person-name {
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .person-company {
+    margin-left: auto;
+    color: #666;
+    font-size: 13px;
+    display: inline-block;
+  }
+
+  .gui-list-item app-person {
+    display: flex;
+    align-items: center;
+  }
+
+  .gui-list-view-source {
+    padding: 0;
+  }
+
+}
+
+

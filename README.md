@@ -1,6 +1,8 @@
-# AngularModuleArchitecture
+# Angular Module Architecture
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+
+This project uses [Generic UI List component](https://generic-ui.com/guide/list)
 
 ## Development server
 
