@@ -1,8 +1,10 @@
 # Angular Module Architecture
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+Concepts used in this repository are described in the article ["The architecture of module dependencies in Angular"](https://generic-ui.com/blog/the-architecture-of-module-dependencies-in-angular).
 
-This project uses [Generic UI List component](https://generic-ui.com/guide/list)
+This project uses [Generic UI List component](https://generic-ui.com/guide/list).
+
+![Generic UI List example application](https://generic-ui.com/assets/blog/architecture-of-module-dependencies/app7.png)
 
 ## Development server
 
